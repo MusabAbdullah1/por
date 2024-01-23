@@ -1,0 +1,191 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* 
+::-webkit-scrollbar{
+    height: 0;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 5rem;
+} */
+
+body{
+    background-color: #E4E4E4;
+    font-family: "Dancing Script", cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* overflow: hidden; */
+}
+
+a{
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    text-decoration: none;
+
+}
+
+
+p{
+    font-family: "Dancing Script", cursive;
+
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.logo h2::first-letter{
+    color: #017489;
+}
+
+header .navlist{
+    display: flex;
+}
+
+.navlist li{
+    margin: 0 1.5rem;
+}
+
+.navlist li .nav-item{
+    position: relative;
+    padding: 17px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all .2s ease;
+}
+
+.navlist li .nav-item:hover{
+    color:#ffffff;
+}
+
+.navlist li .nav-item::before{
+    content: "";
+    position:absolute ;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 1px;
+    background:#ffffff;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.navlist li .nav-item:hover::before{
+    width: 100%;
+}
+
+.navlist li .active{
+    color:#ffffff;
+    border-bottom: 1px solid ;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    background-color: #0097B2 ;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    white-space: nowrap;
+    display: inline-block;
+    color: #000;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+
+.btn:hover{
+    background-color: #0097B2;
+    box-shadow: 0 3px 9px #017489;
+}
+
+#banner{
+    background-image: url(/img/rome\ 2-darck.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+
+
+
+.banner-text{
+text-align: center;
+color: #fff;
+padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 80px  ;
+    font-family: "Dancing Script", cursive;
+
+}
+.banner-text p{
+    font-size: 30px;
+    font-style: italic;  
+    font-family: "Dancing Script", cursive;
+}
+
+.banner-text .btn1{
+    background-color: #ffffff ;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    white-space: nowrap;
+    display: inline-block;
+    color: #0CC0DF;
+    align-items: center;
+    font-family: "Dancing Script", cursive;
+}
+
+.btn1:hover{
+    background-color: #eceaea;
+    box-shadow: 0 3px 9px #ffffff;
+}
+
+
+

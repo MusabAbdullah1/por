@@ -1,6 +1,8 @@
 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 
 
 *{
@@ -12,7 +14,7 @@
     list-style: none;
 }
 
-/* 
+
 ::-webkit-scrollbar{
     height: 0;
     width: .5rem;
@@ -25,7 +27,7 @@
 ::-webkit-scrollbar-thumb{
     background: #000;
     border-radius: 5rem;
-} */
+}
 
 body{
     background-color: #E4E4E4;
@@ -112,10 +114,7 @@ header .navlist{
     border-bottom: 1px solid ;
 }
 
-.right-side{
-    display: flex;
-    align-items: center;
-}
+
 
 .btn{
     background-color: #0097B2 ;
@@ -130,7 +129,8 @@ header .navlist{
     display: inline-block;
     color: #000;
     align-items: center;
-    font-family: "Dancing Script", cursive;
+    font-family: "Oleo Script", system-ui;
+    font-weight: bold;
 }
 
 
@@ -162,7 +162,6 @@ padding-top: 180px;
 }
 .banner-text p{
     font-size: 30px;
-    font-style: italic;  
     font-family: "Dancing Script", cursive;
 }
 
@@ -188,4 +187,117 @@ padding-top: 180px;
 }
 
 
+
+
+.row {
+   
+  align-items: center;
+    margin-top: 200px;
+    margin-bottom: 180px;
+}
+  
+.img-box img {
+    width: 100%;
+    border-radius: 30px;
+  }
+  
+  .detail-box h3{
+    font-size: 26px;
+    color: #017489;
+    margin-bottom: 20p;
+  }
+
+  .detail-box h2{
+    font-size: 46px;
+    color: #000;
+  }
+  .detail-box p{
+    font-size: 26px;
+    color: #017489;
+  }
+
+  .detail-box .About-btn{
+    position:relative;
+    left: 30%;
+  }
+  
+  .About-btn{
+    background-color: #0097B2 ;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+    white-space: nowrap;
+    display: inline-block;
+    color: #000;
+    align-items: center;
+    font-family: "Oleo Script", system-ui;
+    font-weight: bold;
+  }
+  .About-btn:hover{
+    background-color: #0097B2;
+    box-shadow: 0 3px 9px #017489;
+  }
+  
+  /* صفحة الغرق */
+
+  .room h1{
+    text-align: center;
+    color: #017489;
+  }
+
+.room-detels{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+
+.room-detels .card{
+    width: 18rem;
+    margin:10px 20px 200px ;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color:#017489;
+
+}
+.card h5{
+    padding: 0 33%;
+    font-size: 25px;
+}
+.card img{
+    border-top-right-radius: 30px;
+}
+
+/* صفحة الخدمات */
+.contenar{
+    background-color: #0097B2 ;
+    width: 100%;
+    height: 25rem;
+    line-height: 28px;
+    padding: 0 20px;
+    margin: 50px 0 50px;
+    display: block;
+}
+
+.servicec-text{
+    position: absolute;
+    left: 60rem;
+    width: 20rem;
+    color: #017489;
+    background-color: #E4E4E4;
+    padding:  50px 0px 0px 50px;
+    height: 30rem;
+}
+
+.servicec-text h3{
+font-size: 20px;
+}
 

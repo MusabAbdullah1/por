@@ -25,7 +25,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background: #000;
+    background: #017489;
     border-radius: 5rem;
 }
 
@@ -60,6 +60,10 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+}
+header.sticky  {
+    background: #fff;
+    padding: 9px 12%;
 }
 .logo{
     display: flex;
@@ -100,7 +104,7 @@ header .navlist{
     bottom: -1px;
     width: 0;
     height: 1px;
-    background:#ffffff;
+    background:#000000;
     border-radius: 50%;
     transition: all .3s ease;
 }
@@ -111,7 +115,7 @@ header .navlist{
 
 .navlist li .active{
     color:#ffffff;
-    border-bottom: 1px solid ;
+    border-bottom:#000 1.5px solid ;
 }
 
 
@@ -185,6 +189,66 @@ padding-top: 180px;
     background-color: #eceaea;
     box-shadow: 0 3px 9px #ffffff;
 }
+
+
+
+
+.Reservation {
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50px;
+    margin: 20px 5rem 0 5rem;
+    
+}
+
+form {
+    margin: 10px;
+    
+}
+
+label {
+    
+    color:#017489;
+    font-family: "Oleo Script", system-ui;
+
+}
+
+input {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 1px #017489;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+select{
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: solid 1px #017489;
+    border-radius: 50px;
+}
+
+button {
+    background-color: #0097B2 ;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-weight: 700;
+    color: #000;
+    align-items: center;
+    font-family: "Oleo Script", system-ui;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: #0097B2;
+    box-shadow: 0 3px 9px #017489;
+}
+
+
 
 
 
@@ -294,10 +358,75 @@ padding-top: 180px;
     color: #017489;
     background-color: #E4E4E4;
     padding:  50px 0px 0px 50px;
-    height: 30rem;
+    height: 27rem;
 }
 
 .servicec-text h3{
 font-size: 20px;
 }
+
+/* القائمة السفلية */
+footer{
+    width: 100%;
+    height: auto;
+    background: #AFE2ED;
+    padding: 3rem 12% ;
+    color: #000;
+}
+
+.container-foot{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 4rem;
+}
+
+.container-foot .rightBox .social-media{
+    display: flex;
+
+}
+
+.container-foot .title{
+    font-size: 1.5rem;
+    color:#000;
+    font-weight: 600;
+}
+
+.leftBox p{
+    padding: 25px 0;
+    line-height: 1.5rem;
+
+}
+
+.social-media{
+    font-size: 1.5rem;
+}
+
+.social-media a:hover{
+    color:#017489
+}
+
+.social-media li{
+   margin-right: 1rem;
+   margin-top:2rem ; 
+}
+
+.Quick-menu li a{
+    margin-top: 1rem;
+    font-size: 20PX;
+    color: #000;
+}
+
+.Quick-menu li a:hover{
+    color:#017489
+}
+
+.info li{
+    /* display: flex ; */
+    margin:  1.5rem 1rem 1rem 0;
+    column-gap: 5px;
+}
+
+
+
 

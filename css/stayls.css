@@ -221,6 +221,12 @@ input {
     border-radius: 50px;
     margin-right: 15px;
 }
+
+
+
+input:hover{
+    border: 2px solid #017489;
+}
 select{
     padding: 10px;
     margin-top: 15px;
@@ -228,6 +234,10 @@ select{
     margin-bottom: 15px;
     border: solid 1px #017489;
     border-radius: 50px;
+}
+select:hover{
+    border: 2px solid #017489;
+
 }
 
 button {
@@ -245,7 +255,8 @@ button {
 
 button:hover {
     background-color: #0097B2;
-    box-shadow: 0 3px 9px #017489;
+    box-shadow: 0 1px 5px #017489;
+
 }
 
 
@@ -346,7 +357,10 @@ button:hover {
     margin-bottom: 180px;
 }
 .contenar{
-    background-color: #0097B2 ;
+    /* background-color: #0097B2 ; */
+    background: url(/img/apartment.jpg);
+    background-position: center;
+    background-size:cover;
     width: 100%;
     height: 25rem;
     line-height: 28px;
